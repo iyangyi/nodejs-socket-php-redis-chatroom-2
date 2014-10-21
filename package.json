@@ -1,7 +1,23 @@
 {
+  "name": "nodejs-socket-redis-php-chatroom-2",
+  "description": "chatroom with nodejs",
+  "version": "0.0.1",
+  "author": {
+    "name": "tony yang",
+    "email": "yangyiphper@sina.cn"
+  },
+  "keywords": ["socket", "redis", "php", "nodejs", "chat", "chatroom"],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://iyangyi.github.com/nodejs-socket-php-redis-chatroom-2.git"
+  },
+  "engines": {
+    "node": "*"
+  },
   "dependencies" : {
-    "redis" : "0.10.1",
-    "socket.io" : "0.9.16",
+    "redis" : "0.12.1",
+    "socket.io" : "1.1.0",
     "pool-redis" : "0.1.2"
   }
 }
