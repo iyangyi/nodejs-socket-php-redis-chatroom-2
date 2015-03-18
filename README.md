@@ -50,7 +50,7 @@ php端发送消息到聊天室服务器
 ================================
 	
 	// redis的队列，php往这个队列中发送数据。nodejs从这个队列中读取数据分发消息
-    CONST REDIS_MESSAGE_LIST ='1717wan:chat_message_list';
+    CONST REDIS_MESSAGE_LIST ='chat_message_list';
     
     $send_info = array(
     		"id" => 30045, //向30056房间发送
